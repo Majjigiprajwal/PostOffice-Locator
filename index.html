@@ -1,0 +1,82 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Module Test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="IP-Address">
+            <span id="text">MY Public IP ADDRESS :</span>
+            <span id="IP"></span>
+            <div id="getDataBtn">
+           <button onClick="getData()" id="btn">Get Data</button>
+            </div>
+            </div>
+            <div id="locationDetails">
+            <div id="data">
+                <div class="dataItems">
+                    <div class="info">
+                       <span>Lat :</span>
+                       <span id="lat"></span>
+                    </div>
+                    <div class="info">
+                        <span>Long:</span>
+                        <span id="long"></span>
+                    </div>
+                    
+                </div>
+                <div  class="dataItems">
+                    <div class="info">
+                        <span>City:</span>
+                        <span id="city"></span>
+                    </div>
+                    <div class="info">
+                        <span>Region:</span>
+                        <span id="region"></span>
+                    </div>
+                    
+                </div>
+                <div class="dataItems">
+                    <div class="info">
+                        <span>Organisation:</span>
+                       <span id="organisation"></span>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="map">
+          
+            </div>
+            <div id="afterMap">
+               <div class="post">
+                <span>Time Zone:</span>
+                <span id="time"></span>
+               </div>
+               <div class="post">
+                <span>Date And Time:</span>
+                <span id="date"></span>
+               </div>
+               <div class="post">
+                <span>Pincode:</span>
+                <span id="pin"></span>
+               </div>
+               <div class="post">
+                <span>Message:Number of pincode(s) found: </span>
+                <span id="message"></span>
+               </div>
+            </div>
+            <div id="search">
+               <input type="text" placeholder="Filter" id="filter">
+            </div>
+            <div id="postOfficeDetails">
+                
+
+            </div>
+        
+        <script src="index.js" async></script>
+    </body>
+</html>
