@@ -42,7 +42,7 @@ function renderUI() {
     UI.style.display = "flex";
     let user = window.localStorage.getItem('data');
     let data = JSON.parse(user);
-    document.getElementById('lat').textContent = data.latitude;
+    //document.getElementById('lat').textContent = data.latitude;
     document.getElementById('long').textContent = data.longitude;
     document.getElementById('city').textContent = data.city;
     document.getElementById('region').textContent = data.region;
